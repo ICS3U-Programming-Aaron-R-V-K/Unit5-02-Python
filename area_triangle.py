@@ -25,7 +25,7 @@ def main():
         height = float(height_str)
 
         # If statement for getting only positive numbers
-        if base <= 0 and height <= 0:
+        if base <= 0 or height <= 0:
             print("Base and height must be positive numbers.")
         else:
             # If they are positive numbers call the function
